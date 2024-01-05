@@ -5,9 +5,7 @@ import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import Header from "./Components/Header";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import HomeCarousel from "./Components/HomeCarousel";
 import Footer from "./Components/Footer";
-import Services from "./Components/Services";
 import HomePage from "./Pages/HomePage";
 
 const root = ReactDOM.createRoot(
