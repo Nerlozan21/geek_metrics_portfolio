@@ -5,6 +5,7 @@ import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import Header from "./Components/Header";
 import HomeCarousel from './Components/HomeCarousel';
+import Footer from './Components/Footer';
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
@@ -13,6 +14,7 @@ root.render(
   <React.StrictMode>
     <Header />
     <HomeCarousel/>
+    <Footer></Footer>
   </React.StrictMode>
 );
 
