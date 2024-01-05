@@ -1,12 +1,14 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import Header from "./Components/Header";
-import HomeCarousel from './Components/HomeCarousel';
-import Footer from './Components/Footer';
-import Services from './Components/Services';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import HomeCarousel from "./Components/HomeCarousel";
+import Footer from "./Components/Footer";
+import Services from "./Components/Services";
+import HomePage from "./Pages/HomePage";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
@@ -14,8 +16,12 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <Header />
-    <HomeCarousel/>
-    <Services></Services>
+    <BrowserRouter>
+      <Routes>
+        <Route index element={<HomePage></HomePage>}></Route>
+        <Route path="/home" element={<HomePage />}></Route>
+      </Routes>
+    </BrowserRouter>
     <Footer></Footer>
   </React.StrictMode>
 );
