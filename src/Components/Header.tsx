@@ -24,7 +24,7 @@ const Header = () => {
                 </a>
               </li>
               <li className="nav-item active">
-                <a href="" className="nav-link font-italic">
+                <a href="../contactUs" className="nav-link font-italic">
                   {" "}
                   Contact
                 </a>
