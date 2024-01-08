@@ -341,7 +341,6 @@ const AboutUs = () => {
             </div>
           </div>
         </div>
-        <hr />
       </div>
     </div>
   );
