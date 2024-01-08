@@ -29,8 +29,7 @@ const Header = () => {
           <ul className="navbar-nav ml-auto">
             <li className="nav-item active">
               <a href="/" className="nav-link font-italic text-white">
-                {""}
-                Home{""}
+                Home
               </a>
             </li>
             <li className="nav-item active">
