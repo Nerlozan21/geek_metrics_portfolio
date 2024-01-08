@@ -90,12 +90,12 @@ const Footer = () => {
             </a>
           </p>
           <p>
-            <a href="/about" className="text-white">
+            <a href="/aboutUs" className="text-white">
               About
             </a>
           </p>
           <p>
-            <a href="contact" className="text-white">
+            <a href="/contactUs" className="text-white">
               Contact
             </a>
           </p>
