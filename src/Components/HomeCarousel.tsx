@@ -1,73 +1,80 @@
-import React from "react";
+import "../Styles/HomeCarouselStyles.css";
 
 const HomeCarousel = () => {
   return (
-    <div>
-      <div className="home">
-        <div
-          id="robotcarousel"
-          className="carousel slide"
-          data-bs-ride="carousel"
-        >
-          <div className="carousel-indicators">
-            <button
-              type="button"
-              data-bs-target="#robotcarousel"
-              data-bs-slide-to="0"
-              className="active"
-              aria-current="true"
-              aria-label="Slide 1"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#robotcarousel"
-              data-bs-slide-to="1"
-              aria-label="Slide 2"
-            ></button>
+    <div
+      id="carouselExampleCaptions"
+      className="carousel slide"
+      data-bs-ride="true"
+    >
+      <div className="carousel-inner">
+        <div className="carousel-item active" data-bs-interval="2000">
+          <img
+            src={"./Assets/homslider1.jpg"}
+            className="d-block w-100"
+            alt="..."
+          />
+          <div className="carousel-caption d-flex flex-column h-100 align-items-center justify-content-center bg-transparent">
+            <h1 className="bg-transparent">
+              GeeksMetrics provides infrastructure services and a range of
+              flexible delivery options to meet the unique requirements of your
+              organization.
+            </h1>
           </div>
-
-          <div className="carousel-inner">
-            <div className="carousel-item">
-              <img
-                className="d-block w-100"
-                src="https://pixelprowess.com/i/carousel_swamp.png"
-                alt="swamp"
-              />
-            </div>
-            <div className="carousel-item active">
-              <img
-                className="d-block w-100"
-                src="https://pixelprowess.com/i/carousel_flight.png"
-                alt="flight"
-              />
-            </div>
-          </div>
-
-          <button
-            className="carousel-control-prev"
-            type="button"
-            data-bs-target="#robotcarousel"
-            data-bs-slide="prev"
-          >
-            <span
-              className="carousel-control-prev-icon"
-              aria-hidden="true"
-            ></span>
-            <span className="visually-hidden">Previous</span>
-          </button>
-          <button
-            className="carousel-control-next"
-            type="button"
-            data-bs-target="#robotcarousel"
-            data-bs-slide="next"
-          >
-            <span
-              className="carousel-control-next-icon"
-              aria-hidden="true"
-            ></span>
-            <span className="visually-hidden">Next</span>
-          </button>
         </div>
+        <div className="carousel-item" data-bs-interval="2000">
+          <img
+            src={"./Assets/slider_11.jpg"}
+            className="d-block w-100"
+            alt="..."
+          />
+          <div className="carousel-caption d-flex flex-column h-100 align-items-center justify-content-center bg-transparent">
+            <h1 className="bg-transparent">
+              Technology is best when it brings people together. The importance
+              of IT management is to understand the managing data. There are
+              also difficulties IT managers overcome.
+            </h1>
+          </div>
+        </div>
+        <div className="carousel-item" data-bs-interval="2000">
+          <img
+            src={"./Assets/slider_12.jpg"}
+            className="d-block w-100"
+            alt="..."
+          />
+          <div className="carousel-caption d-flex flex-column h-100 align-items-center justify-content-center bg-transparent">
+            <h1 className="bg-transparent">
+              GeeksMetrics provides IT infrastructure services and a range of
+              flexible delivery options to meet the unique requirements of your
+              organization.The importance of IT management is to understand the
+              managing data. There are also difficulties IT managers overcome.
+            </h1>
+          </div>
+        </div>
+        <button
+          className="carousel-control-prev bg-transparent"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span
+            className="carousel-control-prev-icon bg-transparent"
+            aria-hidden="true"
+          ></span>
+          <span className="visually-hidden bg-transparent">Previous</span>
+        </button>
+        <button
+          className="carousel-control-next bg-transparent"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span
+            className="carousel-control-next-icon bg-transparent"
+            aria-hidden="true"
+          ></span>
+          <span className="visually-hidden bg-transparent">Next</span>
+        </button>
       </div>
     </div>
   );
