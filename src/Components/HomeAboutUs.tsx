@@ -3,8 +3,11 @@ import React from "react";
 const HomeAboutUs = () => {
   return (
     <div>
-      <section className="py-3 py-md-5 py-xl-8">
+      <section className=" py-5">
         <div className="container">
+          <h2 className="h1 mb-3">
+            Who Are <span style={{ color: "#5535f0" }}> We? </span>
+          </h2>
           <div className="row gy-3 gy-md-4 gy-lg-0 align-items-lg-center">
             <div className="col-12 col-lg-6 col-xl-5">
               <img
@@ -12,24 +15,35 @@ const HomeAboutUs = () => {
                 loading="lazy"
                 src="https://cdn.pixabay.com/photo/2020/01/25/05/36/sketch-4791819_1280.jpg"
                 alt=""
-              ></img>
+              />
             </div>
             <div className="col-12 col-lg-6 col-xl-7">
               <div className="row justify-content-xl-center">
                 <div className="col-12 col-xl-11">
-                  <h2 className="h1 mb-3">Who Are We?</h2>
-                  <p className="lead fs-4 text-secondary mb-3">
-                    We help people to build incredible brands and superior
-                    products. Our perspective is to furnish outstanding
-                    captivating services.
+                  <p className="lead fs-4 mb-3">
+                    We’re Passionate About Creating beautiful Products and
+                    services for people.
                   </p>
-                  <p className="mb-5">
-                    Nullam gravida orci ac luctus molestie. Fusce finibus congue
-                    erat, non aliquam magna tincidunt at. Aenean lacinia arcu
-                    ex, sed pharetra nibh porta a. Curabitur vel consequat nibh,
-                    ac interdum nisl. Nunc pulvinar nec massa vitae
-                    sollicitudin.
+                  <p className="lead">
+                    The key to reaching this level of consistency is in
+                    developing a work process, and then refining and improving
+                    that process with each subsequent project. We’re going to
+                    take a look at some work process improvement ideas that will
+                    help you grow your business. we will help accurate
+                    measurement and tracking is the foundation of every
+                    high-performing website and marketing department. Today’s
+                    savvy business owners and marketing executives demand better
+                    information. They know that gut intuition plus marketing
+                    analytics data beats gut intuition alone—every single time.
                   </p>
+                  <p className="lead">
+                    Some may find that the tasks you’ve allocated to them are
+                    challenging, and they may need support. In order for a
+                    business to thrive, it needs to consistently meet and exceed
+                    its targets: it will result in achieving the best possible
+                    results by working as a team.
+                  </p>
+
                   <div className="row gy-4 gy-md-0 gx-xxl-5X">
                     <div className="col-12 col-md-6">
                       <div className="d-flex">
@@ -38,7 +52,7 @@ const HomeAboutUs = () => {
                             xmlns="http://www.w3.org/2000/svg"
                             width="32"
                             height="32"
-                            fill="currentColor"
+                            fill="#5535F0"
                             className="bi bi-gear-fill"
                             viewBox="0 0 16 16"
                           >
@@ -47,7 +61,7 @@ const HomeAboutUs = () => {
                         </div>
                         <div>
                           <h4 className="mb-3">Versatile Brand</h4>
-                          <p className="text-secondary mb-0">
+                          <p className="lead">
                             We are crafting a digital method that subsists life
                             across all mediums.
                           </p>
@@ -61,16 +75,16 @@ const HomeAboutUs = () => {
                             xmlns="http://www.w3.org/2000/svg"
                             width="32"
                             height="32"
-                            fill="currentColor"
-                            className="bi bi-fire"
+                            fill="#5535F0"
+                            className="bi bi-brightness-high-fill"
                             viewBox="0 0 16 16"
                           >
-                            <path d="M8 16c3.314 0 6-2 6-5.5 0-1.5-.5-4-2.5-6 .25 1.5-1.25 2-1.25 2C11 4 9 .5 6 0c.357 2 .5 4-2 6-1.25 1-2 2.729-2 4.5C2 14 4.686 16 8 16Zm0-1c-1.657 0-3-1-3-2.75 0-.75.25-2 1.25-3C6.125 10 7 10.5 7 10.5c-.375-1.25.5-3.25 2-3.5-.179 1-.25 2 1 3 .625.5 1 1.364 1 2.25C11 14 9.657 15 8 15Z" />
+                            <path d="M12 8a4 4 0 1 1-8 0 4 4 0 0 1 8 0M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z" />
                           </svg>
                         </div>
                         <div>
-                          <h4 className="mb-3">Digital Agency</h4>
-                          <p className="text-secondary mb-0">
+                          <h4 className="mb-3">Innovators</h4>
+                          <p className="lead">
                             We believe in innovation by merging primary with
                             elaborate ideas.
                           </p>
@@ -78,7 +92,7 @@ const HomeAboutUs = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="row gy-4 gy-md-0 gx-xxl-5X">
+                  <div className="row gy-4 gy-md-0 gx-xxl-5X mt-3">
                     <div className="col-12 col-md-6">
                       <div className="d-flex">
                         <div className="me-4 text-primary">
@@ -86,16 +100,16 @@ const HomeAboutUs = () => {
                             xmlns="http://www.w3.org/2000/svg"
                             width="32"
                             height="32"
-                            fill="currentColor"
-                            className="bi bi-gear-fill"
+                            fill="#5535F0"
+                            className="bi bi-laptop-fill"
                             viewBox="0 0 16 16"
                           >
-                            <path d="M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 1-2.105-.872l-.1-.34zM8 10.93a2.929 2.929 0 1 1 0-5.86 2.929 2.929 0 0 1 0 5.858z" />
+                            <path d="M2.5 2A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5" />
                           </svg>
                         </div>
                         <div>
-                          <h4 className="mb-3">Versatile Brand</h4>
-                          <p className="text-secondary mb-0">
+                          <h4 className="mb-3">Digital First</h4>
+                          <p className="lead">
                             We are crafting a digital method that subsists life
                             across all mediums.
                           </p>
@@ -109,16 +123,16 @@ const HomeAboutUs = () => {
                             xmlns="http://www.w3.org/2000/svg"
                             width="32"
                             height="32"
-                            fill="currentColor"
-                            className="bi bi-fire"
+                            fill="#5535F0"
+                            className="bi bi-bar-chart-fill"
                             viewBox="0 0 16 16"
                           >
-                            <path d="M8 16c3.314 0 6-2 6-5.5 0-1.5-.5-4-2.5-6 .25 1.5-1.25 2-1.25 2C11 4 9 .5 6 0c.357 2 .5 4-2 6-1.25 1-2 2.729-2 4.5C2 14 4.686 16 8 16Zm0-1c-1.657 0-3-1-3-2.75 0-.75.25-2 1.25-3C6.125 10 7 10.5 7 10.5c-.375-1.25.5-3.25 2-3.5-.179 1-.25 2 1 3 .625.5 1 1.364 1 2.25C11 14 9.657 15 8 15Z" />
+                            <path d="M1 11a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1zm5-4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1z" />
                           </svg>
                         </div>
                         <div>
-                          <h4 className="mb-3">Digital Agency</h4>
-                          <p className="text-secondary mb-0">
+                          <h4 className="mb-3">Data Driven Decision Makers</h4>
+                          <p className="lead">
                             We believe in innovation by merging primary with
                             elaborate ideas.
                           </p>
@@ -130,6 +144,7 @@ const HomeAboutUs = () => {
               </div>
             </div>
           </div>
+          <hr />
         </div>
       </section>
     </div>
