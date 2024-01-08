@@ -2,115 +2,85 @@ import React from "react";
 
 const Services = () => {
   return (
-    <div>
-      <div className="container">
-        <h1>Our Services</h1>
-        <hr className="featurette-divider" />
+    <div className="container py-5">
+      <h1>
+        Our <span style={{ color: "#5535f0" }}>Services</span>
+      </h1>
+      <p className="lead">
+        GeekMetrics is the ultimate digital emporium catering to the best
+        service requirements of the clients. Experience yourself with our
+        remarkable services.
+      </p>
 
-        <div className="row featurette">
-          <div className="col-md-7">
-            <h2 className="featurette-heading">
-              First featurette heading.
-              <span className="text-muted">It’ll blow your mind.</span>
-            </h2>
-            <p className="lead">
-              Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id
-              ligula porta felis euismod semper. Praesent commodo cursus magna,
-              vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
-              commodo.
-            </p>
-          </div>
-          <div className="col-md-5">
-            <svg
-              className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
-              width="500"
-              height="500"
-              xmlns="http://www.w3.org/2000/svg"
-              role="img"
-              aria-label="Placeholder: 500x500"
-              preserveAspectRatio="xMidYMid slice"
-              focusable="false"
-            >
-              <title>Placeholder</title>
-              <rect width="100%" height="100%" fill="#eee" />
-              <text x="50%" y="50%" fill="#aaa" dy=".3em">
-                500x500
-              </text>
-            </svg>
-          </div>
+      <div className="row featurette">
+        <div className="col-md-7 py-5">
+          <h2 className="featurette-heading">Custom Software Development</h2>
+          <p className="lead">
+            Tailor-made solutions for your unique needs - our custom software
+            brings your vision to life.
+          </p>
         </div>
-
-        <hr className="featurette-divider" />
-
-        <div className="row featurette">
-          <div className="col-md-7 order-md-2">
-            <h2 className="featurette-heading">
-              Oh yeah, it’s that good.
-              <span className="text-muted">See for yourself.</span>
-            </h2>
-            <p className="lead">
-              Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id
-              ligula porta felis euismod semper. Praesent commodo cursus magna,
-              vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
-              commodo.
-            </p>
-          </div>
-          <div className="col-md-5 order-md-1">
-            <svg
-              className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
-              width="500"
-              height="500"
-              xmlns="http://www.w3.org/2000/svg"
-              role="img"
-              aria-label="Placeholder: 500x500"
-              preserveAspectRatio="xMidYMid slice"
-              focusable="false"
-            >
-              <title>Placeholder</title>
-              <rect width="100%" height="100%" fill="#eee" />
-              <text x="50%" y="50%" fill="#aaa" dy=".3em">
-                500x500
-              </text>
-            </svg>
-          </div>
+        <div className="col-md-5 justify-content-center">
+          <img
+            src="./Assets/grapy-coder-workplace.png"
+            alt=""
+            width="250"
+            height="250"
+          />
         </div>
+      </div>
 
-        <hr className="featurette-divider" />
-
-        <div className="row featurette">
-          <div className="col-md-7">
-            <h2 className="featurette-heading">
-              And lastly, this one.{" "}
-              <span className="text-muted">Checkmate.</span>
-            </h2>
-            <p className="lead">
-              Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id
-              ligula porta felis euismod semper. Praesent commodo cursus magna,
-              vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
-              commodo.
-            </p>
-          </div>
-          <div className="col-md-5">
-            <svg
-              className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
-              width="500"
-              height="500"
-              xmlns="http://www.w3.org/2000/svg"
-              role="img"
-              aria-label="Placeholder: 500x500"
-              preserveAspectRatio="xMidYMid slice"
-              focusable="false"
-            >
-              <title>Placeholder</title>
-              <rect width="100%" height="100%" fill="#eee" />
-              <text x="50%" y="50%" fill="#aaa" dy=".3em">
-                500x500
-              </text>
-            </svg>
-          </div>
+      <div className="row featurette">
+        <div className="col-md-5 order-md-2 py-5">
+          <h2 className="featurette-heading">CRM solutions</h2>
+          <p className="lead">
+            Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id
+            ligula porta felis euismod semper. Praesent commodo cursus magna,
+            vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
+            commodo.
+          </p>
         </div>
+        <div className="col-md-7 order-md-1 justify-content-center">
+          <img
+            src="./Assets/office-business-planning-and-developing-strategy.png"
+            alt=""
+            width="250"
+            height="250"
+          />
+        </div>
+      </div>
 
-        <hr className="featurette-divider" />
+      <div className="row featurette">
+        <div className="col-md-7 py-5">
+          <h2 className="featurette-heading">Human Resource Management</h2>
+          <p className="lead">
+            Simplify human resource management and empower your workforce with
+            our HRM software.
+          </p>
+        </div>
+        <div className="col-md-5 justify-content-center">
+          <img
+            src="./Assets/glare-coding-programming-languages-1.png"
+            alt=""
+            width="250"
+            height="250"
+          />
+        </div>
+      </div>
+
+      <div className="row featurette">
+        <div className="col-md-5 order-md-2 py-5">
+          <h2 className="featurette-heading">Accounting solutions</h2>
+          <p className="lead">
+            Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id
+            ligula porta felis euismod semper. Praesent commodo cursus magna,
+            vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
+            commodo.
+          </p>
+        </div>
+        <div className="col-md-7 order-md-1 justify-content-center">
+          <img src="./Assets/accounting.png" alt="" width="250" height="250" />
+        </div>
       </div>
     </div>
   );

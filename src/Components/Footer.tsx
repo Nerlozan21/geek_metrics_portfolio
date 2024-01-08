@@ -3,6 +3,7 @@ import "../Styles/FooterStyles.css";
 const Footer = () => {
   return (
     <div className="footer py-1">
+      <hr/>
       <div className="content">
         <div className="heading text-center">
           <img
