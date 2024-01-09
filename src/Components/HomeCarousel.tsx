@@ -1,82 +1,61 @@
+import { Carousel } from "react-bootstrap";
 import "../Styles/HomeCarouselStyles.css";
 
 const HomeCarousel = () => {
   return (
-    <div
-      id="carouselExampleCaptions"
-      className="carousel slide"
-      data-bs-ride="true"
-    >
-      <div className="carousel-inner">
-        <div className="carousel-item active" data-bs-interval="2000">
+    <>
+      <Carousel slide indicators={false} className="carousel-container">
+        <Carousel.Item interval={2000} className="first-container">
           <img
-            src={"./Assets/homslider1.jpg"}
-            className="d-block w-100"
-            alt="..."
+            src="./Assets/homslider1.jpg"
+            className="w-100"
+            alt="carousel-img1"
           />
-          <div className="carousel-caption d-flex flex-column h-100 align-items-center justify-content-center bg-transparent">
-            <h1 className="bg-transparent">
+          <Carousel.Caption className="d-flex flex-column h-100 align-items-center justify-content-center bg-transparent">
+            <h2 className="bg-transparent text-white">
               GeeksMetrics provides infrastructure services and a range of
               flexible delivery options to meet the unique requirements of your
               organization.
-            </h1>
-          </div>
-        </div>
-        <div className="carousel-item" data-bs-interval="2000">
+            </h2>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item
+          interval={2000}
+          className="text-center carousel-caption-text"
+        >
           <img
-            src={"./Assets/slider_11.jpg"}
-            className="d-block w-100"
-            alt="..."
+            src="./Assets/slider_11.jpg"
+            alt="carousel-img2"
+            className="w-100"
           />
-          <div className="carousel-caption d-flex flex-column h-100 align-items-center justify-content-center bg-transparent">
-            <h1 className="bg-transparent">
+          <Carousel.Caption className="d-flex flex-column h-100 align-items-center justify-content-center bg-transparent">
+            <h2 className="bg-transparent text-white">
               Technology is best when it brings people together. The importance
               of IT management is to understand the managing data. There are
               also difficulties IT managers overcome.
-            </h1>
-          </div>
-        </div>
-        <div className="carousel-item" data-bs-interval="2000">
+            </h2>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item
+          interval={2000}
+          className="text-center carousel-caption-text"
+        >
           <img
-            src={"./Assets/slider_12.jpg"}
-            className="d-block w-100"
-            alt="..."
+            src="./Assets/slider_12.jpg"
+            alt="carousel-img3"
+            className="w-100"
           />
-          <div className="carousel-caption d-flex flex-column h-100 align-items-center justify-content-center bg-transparent">
-            <h1 className="bg-transparent">
+          <Carousel.Caption className="d-flex flex-column h-100 align-items-center justify-content-center bg-transparent">
+            <h2 className="bg-transparent text-white">
               GeeksMetrics provides IT infrastructure services and a range of
               flexible delivery options to meet the unique requirements of your
               organization.The importance of IT management is to understand the
               managing data. There are also difficulties IT managers overcome.
-            </h1>
-          </div>
-        </div>
-        <button
-          className="carousel-control-prev bg-transparent"
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="prev"
-        >
-          <span
-            className="carousel-control-prev-icon bg-transparent"
-            aria-hidden="true"
-          ></span>
-          <span className="visually-hidden bg-transparent">Previous</span>
-        </button>
-        <button
-          className="carousel-control-next bg-transparent"
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="next"
-        >
-          <span
-            className="carousel-control-next-icon bg-transparent"
-            aria-hidden="true"
-          ></span>
-          <span className="visually-hidden bg-transparent">Next</span>
-        </button>
-      </div>
-    </div>
+            </h2>
+          </Carousel.Caption>
+        </Carousel.Item>
+      </Carousel>
+    </>
   );
 };
 
