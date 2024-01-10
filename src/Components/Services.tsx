@@ -3,7 +3,7 @@ import React from "react";
 const Services = () => {
   return (
     <div className="container py-5">
-      <h1>
+      <h1 className="text-white">
         Our <span style={{ color: "#5535f0" }}>Services</span>
       </h1>
       <p className="lead">
@@ -14,7 +14,7 @@ const Services = () => {
 
       <div className="row featurette">
         <div className="col-md-7 py-5">
-          <h2 className="featurette-heading">Custom Software Development</h2>
+          <h2 className="featurette-heading text-white">Custom Software Development</h2>
           <p className="lead">
             Tailor-made solutions for your unique needs - our custom software
             brings your vision to life.
@@ -32,7 +32,7 @@ const Services = () => {
 
       <div className="row featurette">
         <div className="col-md-5 order-md-2 py-5">
-          <h2 className="featurette-heading">CRM solutions</h2>
+          <h2 className="featurette-heading text-white">CRM solutions</h2>
           <p className="lead">
             Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id
             ligula porta felis euismod semper. Praesent commodo cursus magna,
@@ -52,7 +52,7 @@ const Services = () => {
 
       <div className="row featurette">
         <div className="col-md-7 py-5">
-          <h2 className="featurette-heading">Human Resource Management</h2>
+          <h2 className="featurette-heading text-white">Human Resource Management</h2>
           <p className="lead">
             Simplify human resource management and empower your workforce with
             our HRM software.
@@ -70,7 +70,7 @@ const Services = () => {
 
       <div className="row featurette">
         <div className="col-md-5 order-md-2 py-5">
-          <h2 className="featurette-heading">Accounting solutions</h2>
+          <h2 className="featurette-heading text-white">Accounting solutions</h2>
           <p className="lead">
             Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id
             ligula porta felis euismod semper. Praesent commodo cursus magna,

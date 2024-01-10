@@ -60,7 +60,7 @@ const HomeAboutUs = () => {
                           </svg>
                         </div>
                         <div>
-                          <h4 className="mb-3">Versatile Brand</h4>
+                          <h4 className="mb-3 text-white">Versatile Brand</h4>
                           <p className="lead">
                             We are crafting a digital method that subsists life
                             across all mediums.
@@ -83,7 +83,7 @@ const HomeAboutUs = () => {
                           </svg>
                         </div>
                         <div>
-                          <h4 className="mb-3">Innovators</h4>
+                          <h4 className="mb-3 text-white">Innovators</h4>
                           <p className="lead">
                             We believe in innovation by merging primary with
                             elaborate ideas.
@@ -108,7 +108,7 @@ const HomeAboutUs = () => {
                           </svg>
                         </div>
                         <div>
-                          <h4 className="mb-3">Digital First</h4>
+                          <h4 className="mb-3 text-white">Digital First</h4>
                           <p className="lead">
                             We are crafting a digital method that subsists life
                             across all mediums.
@@ -131,7 +131,7 @@ const HomeAboutUs = () => {
                           </svg>
                         </div>
                         <div>
-                          <h4 className="mb-3">Data Driven Decision Makers</h4>
+                          <h4 className="mb-3 text-white">Data Driven Decision Makers</h4>
                           <p className="lead">
                             We believe in innovation by merging primary with
                             elaborate ideas.
