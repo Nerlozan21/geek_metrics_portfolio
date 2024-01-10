@@ -12,12 +12,12 @@ const Footer = () => {
             width="120"
             height="120"
           />
-          <h2>
+          <h2 className="text-white">
             GeeksMetrics Solutions<sup>&trade;</sup>
           </h2>
         </div>
         <div className="services">
-          <h3 className="mb-2">
+          <h3 className="mb-2 text-white">
             Services
           </h3>
           <p>App development</p>
@@ -26,7 +26,7 @@ const Footer = () => {
           <p>Web designing</p>
         </div>
         <div className="social-media">
-          <h3 className="mb-2">
+          <h3 className="mb-2 text-white">
             Social
           </h3>
           <p>
@@ -82,7 +82,7 @@ const Footer = () => {
           </p>
         </div>
         <div className="links">
-          <h3 className="mb-2">
+          <h3 className="mb-2 text-white">
             Quick links
           </h3>
           <p>
@@ -102,7 +102,7 @@ const Footer = () => {
           </p>
         </div>
         <div className="details">
-          <h3 className="address">
+          <h3 className="address text-white">
             Address
           </h3>
           <p>
@@ -111,11 +111,11 @@ const Footer = () => {
             EPIP Zone, Whitefield, Bengaluru, Karnataka 560066
           </p>
           <div className="row">
-            <h4 className="mobile col-3">Mobile</h4>
+            <h4 className="mobile col-3 text-white">Mobile</h4>
             <p className="col-6">+91 9035521136</p>
           </div>
           <div className="row">
-            <h4 className="mail col-3">Email</h4>
+            <h4 className="mail col-3 text-white">Email</h4>
             <p className="col-6">info&#64;geeksmetrics.in</p>
           </div>
         </div>
