@@ -26,6 +26,7 @@ const Services = () => {
             alt=""
             width="250"
             height="250"
+            className="p-0"
           />
         </div>
       </div>
@@ -46,6 +47,7 @@ const Services = () => {
             alt=""
             width="250"
             height="250"
+            className="p-0"
           />
         </div>
       </div>
@@ -64,6 +66,7 @@ const Services = () => {
             alt=""
             width="250"
             height="250"
+            className="p-0"
           />
         </div>
       </div>
@@ -79,7 +82,7 @@ const Services = () => {
           </p>
         </div>
         <div className="col-md-7 order-md-1 justify-content-center">
-          <img src="./Assets/accounting.png" alt="" width="250" height="250" />
+          <img src="./Assets/accounting.png" alt="" width="250" height="250" className="p-0"/>
         </div>
       </div>
     </div>
