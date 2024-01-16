@@ -7,13 +7,11 @@ const ContactUs = () => {
         <div className="section-header">
           <div className="container">
             <h2>
-              Contact <span style={{ color: "#5535f0" }}> Us</span>
+              Contact <span style={{ color: "#0bb5e0" }}> Us</span>
             </h2>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
+            <p className="lead">
+              We're friendly and available to chat. Reach out to us anytime and
+              we'll be happy answer your questions.
             </p>
           </div>
         </div>

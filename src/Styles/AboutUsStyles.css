@@ -53,6 +53,14 @@ ul {
   color: #00bd2a;
 }
 
+.abtimg {
+  border-radius: 90px;
+}
+
+.abtimg:hover {
+  transform: scale(1.15);
+}
+
 .about_icon i {
   font-size: 22px;
   height: 65px;
@@ -85,6 +93,7 @@ ul {
   border: 0;
   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.06), 0 2px 4px rgba(0, 0, 0, 0.07);
   transition: all 0.15s ease;
+  height: 360px;
 }
 
 .card:hover {
@@ -132,7 +141,7 @@ ul {
 .btn {
   background: #eeecf7;
   border: 0;
-  color: #5535f0;
+  color: #0bb5e0;
   width: 98%;
   font-weight: bold;
   border-radius: 20px;
@@ -141,11 +150,11 @@ ul {
 }
 
 .btn:hover {
-  background: #441cff;
+  background: #0bb5e0;
 }
 
 .btn:focus {
-  background: #441cff;
+  background: #0bb5e0;
   outline: 0;
 }
 

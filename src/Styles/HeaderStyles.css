@@ -6,19 +6,25 @@
 }
 
 ul li:hover{
-  color: #5535f0;
+  color: #0bb5e0;
+  text-decoration: underline;
+  transition: 0.5s ease;
 }
 
 .navbar {
   margin: auto;
   padding-left: 2rem;
   padding-right: 2rem;
-  height: 6rem;
+  height: 5.5rem;
 }
 
 .logo{
   width: 100px;
   height: 100px;
+}
+
+.imgcard:hover{
+  transform: scale(1.15);
 }
 
 @media (max-width: 767px) {

@@ -58,7 +58,7 @@
 }
 
 .contact-info-content h4 {
-  color: #5535f0;
+  color: #0bb5e0;
   font-size: 1.4em;
   margin-bottom: 5px;
 }
@@ -121,19 +121,19 @@
 
 .contact-form .input-box input[type="submit"] {
   width: 100%;
-  background: #5535f0;
+  background: #0bb5e0;
   color: #fff;
   border: none;
   cursor: pointer;
   padding: 10px;
   font-size: 18px;
-  border: 1px solid #5535f0;
+  border: 1px solid #0bb5e0;
   transition: 0.5s;
 }
 
 .contact-form .input-box input[type="submit"]:hover {
   background: #fff;
-  color: #5535f0;
+  color: #0bb5e0;
 }
 
 @media (max-width: 991px) {
