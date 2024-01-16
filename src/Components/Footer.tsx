@@ -104,11 +104,11 @@ const Footer = () => {
           </p>
           <div className="row">
             <h4 className="mobile col-3 text-white">Mobile</h4>
-            <p className="col-6">+91 9035521136</p>
+            <a className="col-6" href="tel: +91 9035521136">+91 9035521136</a>
           </div>
           <div className="row">
             <h4 className="mail col-3 text-white">Email</h4>
-            <p className="col-6">info&#64;geeksmetrics.in</p>
+            <a className="col-6 color-white" href="mailto: info@geeksmetrics.in">info&#64;geeksmetrics.in</a>
           </div>
         </div>
       </div>
