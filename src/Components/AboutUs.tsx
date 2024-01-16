@@ -34,7 +34,7 @@ const AboutUs = () => {
             <div className="col-lg-6 order-2 order-lg-1">
               <i className="fa fa-bar-chart fa-2x mb-3 text-primary"></i>
               <h2 className="font-weight-light text-white">Mission</h2>
-              <p className="font-italic mb-4">
+              <p className="font-italic mb-4 fs-5">
                 GeeksMetrics care of every aspect of endpoint and user security
                 in the most detailed way, as well as easily implements it. The
                 dependence between user, device, and corporate data is
@@ -64,7 +64,7 @@ const AboutUs = () => {
             <div className="col-lg-6">
               <i className="fa fa-leaf fa-2x mb-3 text-primary"></i>
               <h2 className="font-weight-light text-white">Vision</h2>
-              <p className="mb-4">
+              <p className="mb-4 fs-5">
                 Businesses always adopt new technologies to enhance work and
                 productivity. When technologies change at a rapid pace,
                 businesses require a solution that adapts to these frequent

@@ -12,9 +12,6 @@ const Footer = () => {
             width="120"
             height="120"
           />
-          <h2 className="text-white">
-            GeeksMetrics Solutions<sup>&trade;</sup>
-          </h2>
         </div>
         <div className="services">
           <h3 className="mb-2 text-white">Services</h3>
@@ -104,11 +101,18 @@ const Footer = () => {
           </p>
           <div className="row">
             <h4 className="mobile col-3 text-white">Mobile</h4>
-            <a className="col-6" href="tel: +91 9035521136">+91 9035521136</a>
+            <a className="col-6" href="tel: +91 9035521136">
+              +91 9035521136
+            </a>
           </div>
           <div className="row">
             <h4 className="mail col-3 text-white">Email</h4>
-            <a className="col-6 color-white" href="mailto: info@geeksmetrics.in">info&#64;geeksmetrics.in</a>
+            <a
+              className="col-6 color-white"
+              href="mailto: info@geeksmetrics.in"
+            >
+              info&#64;geeksmetrics.in
+            </a>
           </div>
         </div>
       </div>
