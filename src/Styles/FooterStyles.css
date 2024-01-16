@@ -25,7 +25,7 @@
 }
 
 h3{
-  color: #5535f0;
+  color: #0bb5e0;
 }
 
 svg{
@@ -48,6 +48,7 @@ svg{
 footer {
   text-align: center;
   margin-bottom: 2rem;
+  font-size: 20px;
 }
 
 footer hr {

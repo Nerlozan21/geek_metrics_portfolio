@@ -11,10 +11,9 @@ const AboutUs = () => {
                 GeeksMetrics Solutions Private Ltd.
               </h1>
               <p className="lead mb-0">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Recusandae fugit molestiae, mollitia minus consequuntur
-                asperiores. Numquam repellendus amet impedit nulla. Perferendis
-                laboriosam optio eveniet corporis?
+                Technology is best when it brings people together. The
+                importance of IT management is to understand the managing data.
+                There are also difficulties IT managers overcome.
               </p>
               <p className="lead"></p>
             </div>
@@ -22,7 +21,7 @@ const AboutUs = () => {
               <img
                 src="https://bootstrapious.com/i/snippets/sn-about/illus.png"
                 alt=""
-                className="img-fluid"
+                className="img-fluid abtimg"
               />
             </div>
           </div>
@@ -50,7 +49,7 @@ const AboutUs = () => {
               <img
                 src="https://bootstrapious.com/i/snippets/sn-about/img-1.jpg"
                 alt=""
-                className="img-fluid mb-4 mb-lg-0"
+                className="img-fluid mb-4 mb-lg-0 abtimg"
               />
             </div>
           </div>
@@ -59,7 +58,7 @@ const AboutUs = () => {
               <img
                 src="https://bootstrapious.com/i/snippets/sn-about/img-2.jpg"
                 alt=""
-                className="img-fluid mb-4 mb-lg-0"
+                className="img-fluid mb-4 mb-lg-0 abtimg"
               />
             </div>
             <div className="col-lg-6">
@@ -86,11 +85,8 @@ const AboutUs = () => {
           <div className="row mb-4">
             <div className="col-lg-5">
               <h2 className="display-4 font-weight-light text-white">
-                Our <span style={{ color: "#5535f0" }}>team</span>
+                Our <span style={{ color: "#0bb5e0" }}>Team</span>
               </h2>
-              <p className="font-italic">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              </p>
             </div>
           </div>
 
@@ -252,9 +248,6 @@ const AboutUs = () => {
               <h2 className="display-4 font-weight-light text-white">
                 Projects
               </h2>
-              <p className="font-italic">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              </p>
             </div>
 
             <div className="row text-center justify-content-center">
@@ -270,9 +263,7 @@ const AboutUs = () => {
                   />
                 </div>
                 <div className="card-body bg-white">
-                  <h5 className="card-title ms-1 bg-white">
-                    Food Ordering Website
-                  </h5>
+                  <h5 className="card-title ms-1 bg-white">Food Website</h5>
                   <p className="card-text mb-5 ms-1 bg-white">
                     See more bootstrap code snippets on my website
                   </p>
@@ -282,7 +273,7 @@ const AboutUs = () => {
                     target="_blank"
                     className="btn btn-primary mb-1 mt-1"
                   >
-                    Go now
+                    Go Now
                   </a>
                 </div>
               </div>
@@ -308,7 +299,7 @@ const AboutUs = () => {
                     target="_blank"
                     className="btn btn-primary mb-1 mt-1"
                   >
-                    Go now
+                    Go Now
                   </a>
                 </div>
               </div>
@@ -324,7 +315,9 @@ const AboutUs = () => {
                   />
                 </div>
                 <div className="card-body bg-white">
-                  <h5 className="card-title ms-1 bg-white">Portfolio</h5>
+                  <h5 className="card-title ms-1 bg-white">
+                    Portfolio Website
+                  </h5>
                   <p className="card-text mb-5 ms-1 bg-white">
                     Simple Protfolio website for customer
                   </p>
@@ -334,7 +327,7 @@ const AboutUs = () => {
                     target="_blank"
                     className="btn btn-primary mb-1 mt-1"
                   >
-                    Go now
+                    Go Now
                   </a>
                 </div>
               </div>

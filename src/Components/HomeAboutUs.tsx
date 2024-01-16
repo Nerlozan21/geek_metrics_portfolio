@@ -5,7 +5,7 @@ const HomeAboutUs = () => {
     <section className="py-5">
       <div className="container">
         <h2 className="h1 mb-3">
-          Who Are <span style={{ color: "#5535f0" }}> We? </span>
+          Who Are <span style={{ color: "#0bb5e0" }}> We? </span>
         </h2>
         <div className="row gy-3 gy-md-4 gy-lg-0 align-items-lg-center">
           <div className="col-12 col-lg-6 col-xl-5">
@@ -51,7 +51,7 @@ const HomeAboutUs = () => {
                           xmlns="http://www.w3.org/2000/svg"
                           width="32"
                           height="32"
-                          fill="#5535F0"
+                          fill="#0bb5e0"
                           className="bi bi-gear-fill"
                           viewBox="0 0 16 16"
                         >
@@ -74,7 +74,7 @@ const HomeAboutUs = () => {
                           xmlns="http://www.w3.org/2000/svg"
                           width="32"
                           height="32"
-                          fill="#5535F0"
+                          fill="#0bb5e0"
                           className="bi bi-brightness-high-fill"
                           viewBox="0 0 16 16"
                         >
@@ -99,7 +99,7 @@ const HomeAboutUs = () => {
                           xmlns="http://www.w3.org/2000/svg"
                           width="32"
                           height="32"
-                          fill="#5535F0"
+                          fill="#0bb5e0"
                           className="bi bi-laptop-fill"
                           viewBox="0 0 16 16"
                         >
@@ -122,7 +122,7 @@ const HomeAboutUs = () => {
                           xmlns="http://www.w3.org/2000/svg"
                           width="32"
                           height="32"
-                          fill="#5535F0"
+                          fill="#0bb5e0"
                           className="bi bi-bar-chart-fill"
                           viewBox="0 0 16 16"
                         >
