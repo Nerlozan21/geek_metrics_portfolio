@@ -1,4 +1,5 @@
 import "../Styles/AboutUsStyles.css";
+import ProjectsModal from "./ProjectsModal";
 
 const AboutUs = () => {
   return (
@@ -94,9 +95,9 @@ const AboutUs = () => {
             <div className="col-xl-3 col-sm-6 mb-5">
               <div className="rounded shadow-sm py-5 px-4 bg-white">
                 <img
-                  src="https://bootstrapious.com/i/snippets/sn-about/avatar-4.png"
+                  src="./Assets/Hussen.jpg"
                   alt=""
-                  width="100"
+                  width=""
                   className="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm"
                 />
                 <h5 className="mb-0 bg-white">Syed Janath Hussen</h5>
@@ -131,9 +132,9 @@ const AboutUs = () => {
             <div className="col-xl-3 col-sm-6 mb-5">
               <div className="rounded shadow-sm py-5 px-4 bg-white">
                 <img
-                  src="https://bootstrapious.com/i/snippets/sn-about/avatar-4.png"
+                  src="./Assets/Hussen.jpg"
                   alt=""
-                  width="100"
+                  width=""
                   className="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm"
                 />
                 <h5 className="mb-0 bg-white">Syed Janath Hussen</h5>
@@ -168,9 +169,9 @@ const AboutUs = () => {
             <div className="col-xl-3 col-sm-6 mb-5">
               <div className="rounded shadow-sm py-5 px-4 bg-white">
                 <img
-                  src="https://bootstrapious.com/i/snippets/sn-about/avatar-4.png"
+                  src="./Assets/Hussen.jpg"
                   alt=""
-                  width="100"
+                  width=""
                   className="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm"
                 />
                 <h5 className="mb-0 bg-white">Syed Janath Hussen</h5>
@@ -205,9 +206,9 @@ const AboutUs = () => {
             <div className="col-xl-3 col-sm-6 mb-5">
               <div className="rounded shadow-sm py-5 px-4 bg-white">
                 <img
-                  src="https://bootstrapious.com/i/snippets/sn-about/avatar-4.png"
+                  src="./Assets/Hussen.jpg"
                   alt=""
-                  width="100"
+                  width=""
                   className="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm"
                 />
                 <h5 className="mb-0 bg-white">Syed Janath Hussen</h5>
@@ -267,14 +268,7 @@ const AboutUs = () => {
                   <p className="card-text mb-5 ms-1 bg-white">
                     See more bootstrap code snippets on my website
                   </p>
-
-                  <a
-                    href="#"
-                    target="_blank"
-                    className="btn btn-primary mb-1 mt-1"
-                  >
-                    Go Now
-                  </a>
+                  <ProjectsModal></ProjectsModal>
                 </div>
               </div>
               <div
@@ -293,14 +287,7 @@ const AboutUs = () => {
                   <p className="card-text mb-5 ms-1 bg-white">
                     See more bootstrap code snippets on my website
                   </p>
-
-                  <a
-                    href="https://freesnippetcode.blogspot.com/"
-                    target="_blank"
-                    className="btn btn-primary mb-1 mt-1"
-                  >
-                    Go Now
-                  </a>
+                  <ProjectsModal></ProjectsModal>
                 </div>
               </div>
               <div
@@ -321,14 +308,7 @@ const AboutUs = () => {
                   <p className="card-text mb-5 ms-1 bg-white">
                     Simple Protfolio website for customer
                   </p>
-
-                  <a
-                    href="https://prathameshpendal.web.app/"
-                    target="_blank"
-                    className="btn btn-primary mb-1 mt-1"
-                  >
-                    Go Now
-                  </a>
+                  <ProjectsModal></ProjectsModal>
                 </div>
               </div>
             </div>
