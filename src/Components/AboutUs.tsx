@@ -132,14 +132,14 @@ const AboutUs = () => {
             <div className="col-xl-3 col-sm-6 mb-5">
               <div className="rounded shadow-sm py-5 px-4 bg-white">
                 <img
-                  src="./Assets/Hussen.jpg"
+                  src="./Assets/COfounder.jfif"
                   alt=""
                   width=""
                   className="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm"
                 />
-                <h5 className="mb-0 bg-white">Syed Janath Hussen</h5>
+                <h5 className="mb-0 bg-white">Syed Khadar Basha</h5>
                 <span className="small text-uppercase bg-white text-black">
-                  CEO - Founder
+                  CO - Founder
                 </span>
                 <ul className="social mb-0 list-inline mt-3 bg-white">
                   <li className="list-inline-item bg-white">
@@ -169,14 +169,14 @@ const AboutUs = () => {
             <div className="col-xl-3 col-sm-6 mb-5">
               <div className="rounded shadow-sm py-5 px-4 bg-white">
                 <img
-                  src="./Assets/Hussen.jpg"
+                  src="./Assets/supportmale-svgrepo-com.svg"
                   alt=""
                   width=""
                   className="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm"
                 />
-                <h5 className="mb-0 bg-white">Syed Janath Hussen</h5>
+                <h5 className="mb-0 bg-white">Pratham</h5>
                 <span className="small text-uppercase bg-white text-black">
-                  CEO - Founder
+                  CTO
                 </span>
                 <ul className="social mb-0 list-inline mt-3 bg-white">
                   <li className="list-inline-item bg-white">
@@ -206,14 +206,14 @@ const AboutUs = () => {
             <div className="col-xl-3 col-sm-6 mb-5">
               <div className="rounded shadow-sm py-5 px-4 bg-white">
                 <img
-                  src="./Assets/Hussen.jpg"
+                  src="./Assets/sajith.jfif"
                   alt=""
                   width=""
                   className="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm"
                 />
-                <h5 className="mb-0 bg-white">Syed Janath Hussen</h5>
+                <h5 className="mb-0 bg-white">Sajith Krishnan</h5>
                 <span className="small text-uppercase bg-white text-black">
-                  CEO - Founder
+                  Business Assosciate
                 </span>
                 <ul className="social mb-0 list-inline mt-3 bg-white">
                   <li className="list-inline-item bg-white">
