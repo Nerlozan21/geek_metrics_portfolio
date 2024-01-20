@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import "../Styles/HeaderStyles.css";
+import ProgressBar from "./ProgressBar";
 
 const Header = () => {
   const [isSticky, setIsSticky] = useState(false);
@@ -17,7 +18,11 @@ const Header = () => {
   }, []);
 
   return (
-    <nav className={`navbar navbar-expand-lg navbar-dark ${isSticky ? 'sticky' : ''}`}>
+    <nav
+      className={`navbar navbar-expand-lg navbar-dark ${
+        isSticky ? "sticky" : ""
+      }`}
+    >
       <div className="container-fluid">
         <a href="/" className="navbar-brand d-flex align-items-center">
           <img
@@ -60,6 +65,7 @@ const Header = () => {
           </ul>
         </div>
       </div>
+      <ProgressBar></ProgressBar>
     </nav>
   );
 };
