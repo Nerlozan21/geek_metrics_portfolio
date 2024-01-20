@@ -42,12 +42,15 @@ const ContactUs = () => {
 
                 <div className="contact-info-content">
                   <h4>Address</h4>
-                  <p>
+                  <a
+                    href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.8985174585014!2d77.72499707590217!3d12.978342214728753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae11fbbbc36817%3A0x1441e10c2bb64441!2sBHIVE%20Workspace%20Whitefield%20Campus!5e0!3m2!1sen!2sin!4v1703009564619!5m2!1sen!2sin"
+                    style={{ color: "000", textDecoration:"none" }}
+                  >
                     Jbr Tech Park, 6th Rd, Whitefield, EPIP Zone,
                     <br />
                     Whitefield, Bengaluru, Karnataka <br />
                     560066
-                  </p>
+                  </a>
                 </div>
               </div>
 
@@ -70,7 +73,7 @@ const ContactUs = () => {
 
                 <div className="contact-info-content">
                   <h4>Phone</h4>
-                  <p>+91 9035521136</p>
+                  <a href="tel: +91 9035521136">+91 9035521136</a>
                 </div>
               </div>
 
@@ -91,7 +94,12 @@ const ContactUs = () => {
 
                 <div className="contact-info-content">
                   <h4>Email</h4>
-                  <p>info&#64;geeksmetrics.in</p>
+                  <a
+                    className="col-6 color-white"
+                    href="mailto: info@geeksmetrics.in"
+                  >
+                    info&#64;geeksmetrics.in
+                  </a>
                 </div>
               </div>
             </div>
