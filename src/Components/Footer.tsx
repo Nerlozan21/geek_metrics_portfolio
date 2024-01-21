@@ -106,7 +106,7 @@ const Footer = () => {
             </a>
           </div>
           <div className="row">
-            <h4 className="mail col-3 text-white">Email</h4>
+            <h4 className="mail col-3 text-white mt-2 ">Email</h4>
             <a
               className="col-6 color-white"
               href="mailto: info@geeksmetrics.in"
