@@ -20,10 +20,6 @@
   margin: 1.5rem;
 }
 
-.footer .content p {
-  margin-bottom: 1.3rem;
-}
-
 h3{
   color: #0bb5e0;
 }
@@ -41,7 +37,6 @@ svg{
 }
 
 .footer .content h4 {
-  margin-bottom: 1.3rem;
   font-size: 19px;
 }
 
