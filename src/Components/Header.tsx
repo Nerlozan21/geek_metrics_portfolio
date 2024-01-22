@@ -61,12 +61,3 @@ const Header = () => {
 
 export default Header;
 
-// import React from 'react'
-
-// const Header = () => {
-//   return (
-
-//   )
-// }
-
-// export default Header

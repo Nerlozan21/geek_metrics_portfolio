@@ -15,4 +15,7 @@
   .carousel-inner p {
     font-size: 8px;
   }
+  .carousel img {
+    height: 70vh;
+  }
 }
