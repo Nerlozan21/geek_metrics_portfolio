@@ -20,28 +20,17 @@ const Header = () => {
   return (
     <nav
       className={`navbar navbar-expand-lg navbar-dark ${
-        isSticky ? "sticky" : ""
+        isSticky ? "sticky" : "" 
       }`}
     >
       <div className="container-fluid">
-        <a href="/" className="navbar-brand d-flex align-items-center">
+        <a href="/" className="navbar-brand stickey-top d-flex align-items-center">
           <img
             src={"./Assets/Geeksmetrics-Logo-Png-File.png"}
             alt=""
             className="logo"
           />
         </a>
-        <button
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-          className="navbar-toggler text-light"
-        >
-          <span className="navbar-toggler-icon text-white"></span>
-        </button>
         <div
           id="navbarSupportedContent"
           className="collapse navbar-collapse justify-content-end"
@@ -71,3 +60,13 @@ const Header = () => {
 };
 
 export default Header;
+
+// import React from 'react'
+
+// const Header = () => {
+//   return (
+
+//   )
+// }
+
+// export default Header
