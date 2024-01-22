@@ -101,14 +101,14 @@ const Footer = () => {
           </p>
           <div className="row">
             <h4 className="mobile col-3 text-white">Mobile</h4>
-            <a className="col-6" href="tel: +91 9035521136">
+            <a className="col-6 text-white" href="tel: +91 9035521136">
               +91 9035521136
             </a>
           </div>
           <div className="row">
             <h4 className="mail col-3 text-white mt-2 ">Email</h4>
             <a
-              className="col-6 color-white"
+              className="col-6 text-white"
               href="mailto: info@geeksmetrics.in"
             >
               info&#64;geeksmetrics.in

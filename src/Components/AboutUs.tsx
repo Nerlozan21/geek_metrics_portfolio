@@ -264,7 +264,7 @@ const AboutUs = () => {
                   />
                 </div>
                 <div className="card-body bg-white">
-                  <h5 className="card-title ms-1 bg-white">Food Website</h5>
+                  <h5 className="card-title ms-1 bg-white">Food Application</h5>
                   <p className="card-text mb-5 ms-1 bg-white">
                     See more bootstrap code snippets on my website
                   </p>
@@ -283,7 +283,7 @@ const AboutUs = () => {
                   />
                 </div>
                 <div className="card-body bg-white">
-                  <h5 className="card-title ms-1 bg-white">Shopping Website</h5>
+                  <h5 className="card-title ms-1 bg-white">Shopping Application</h5>
                   <p className="card-text mb-5 ms-1 bg-white">
                     See more bootstrap code snippets on my website
                   </p>
@@ -303,7 +303,7 @@ const AboutUs = () => {
                 </div>
                 <div className="card-body bg-white">
                   <h5 className="card-title ms-1 bg-white">
-                    Portfolio Website
+                    Portfolio Applcation
                   </h5>
                   <p className="card-text mb-5 ms-1 bg-white">
                     Simple Protfolio website for customer
