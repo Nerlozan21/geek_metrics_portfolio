@@ -266,7 +266,7 @@ const AboutUs = () => {
                 <div className="card-body bg-white">
                   <h5 className="card-title ms-1 bg-white">Food Application</h5>
                   <p className="card-text mb-5 ms-1 bg-white">
-                    See more bootstrap code snippets on my website
+                    See more bootstrap code snippets on my application
                   </p>
                   <ProjectsModal></ProjectsModal>
                 </div>
@@ -285,7 +285,7 @@ const AboutUs = () => {
                 <div className="card-body bg-white">
                   <h5 className="card-title ms-1 bg-white">Shopping Application</h5>
                   <p className="card-text mb-5 ms-1 bg-white">
-                    See more bootstrap code snippets on my website
+                    See more bootstrap code snippets on my application
                   </p>
                   <ProjectsModal></ProjectsModal>
                 </div>
@@ -303,10 +303,31 @@ const AboutUs = () => {
                 </div>
                 <div className="card-body bg-white">
                   <h5 className="card-title ms-1 bg-white">
-                    Portfolio Applcation
+                    Portfolio Application
                   </h5>
                   <p className="card-text mb-5 ms-1 bg-white">
-                    Simple Protfolio website for customer
+                    Simple Protfolio application for customer
+                  </p>
+                  <ProjectsModal></ProjectsModal>
+                </div>
+              </div>
+              <div
+                className="animate__animated animate bounce card m-4"
+                style={{ width: "18rem" }}
+              >
+                <div className="container mt-3">
+                  <img
+                    src="https://i.ibb.co/gRpP2Lm/icons8-online-128.png"
+                    className="card-img-top bg-white"
+                    alt="..."
+                  />
+                </div>
+                <div className="card-body bg-white">
+                  <h5 className="card-title ms-1 bg-white">
+                    Matrimony Application
+                  </h5>
+                  <p className="card-text mb-5 ms-1 bg-white">
+                    Matrimony Application for customer
                   </p>
                   <ProjectsModal></ProjectsModal>
                 </div>
